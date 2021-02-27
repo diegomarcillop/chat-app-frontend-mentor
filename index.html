@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/css/all.css">
+  <script src="https://kit.fontawesome.com/46480f0f3c.js" crossorigin="anonymous"></script>
+  
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="container__phoneModule">
+        <div class="phone">
+          <div class="phone__top"></div>
+          <div class="phone__footer">
+            <div class="phone__footer__left">
+              <i class="fas fa-chevron-left"></i>
+              <div class="phone__footer__user">
+                <img src="./src/assets/images/avatar.jpg" class="avatar"/>
+                <div class="phone__footer__user__information">
+                  <span class="name">Samuel Green</span>
+                  <span class="state">Available to Walk</span>
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="phone__chat">
+            <div class="phone__chat__message">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="phone__chat__message">
+              Could you send over some pictures of your dog, please?
+            </div>
+            <div class="phone__chat__photos">
+              <img src="./src/assets/images/dog-image-1.jpg" alt="dog image_1"/>
+              <img src="./src/assets/images/dog-image-2.jpg" alt="dog image_2"/>
+              <img src="./src/assets/images/dog-image-3.jpg" alt="dog image_3"/>
+            </div>
+            <div class="phone__chat__message phone__chat__message--send">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="phone__chat__message phone__chat__message--send">
+              Can you make it?
+            </div>
+            <div class="phone__chat__message">
+              She looks so happy! The time we discussed works. How long shall I take her out for?
+            </div>
+            <div class="phone__chat__time">
+              <div>
+                <i class="far fa-circle"></i>
+                <span class="phone__chat__time__number">30 minute walk</span>
+              </div>
+              <span class="phone__chat__time__price">$29</span>
+            </div>
+            <div class="phone__chat__time">
+              <div>
+                <i class="far fa-circle"></i>
+                <span class="phone__chat__time__number">1 hour walk</span>
+              </div>
+              <span class="phone__chat__time__price">$49</span>
+            </div>
+            <div class="phone__sendMessage">
+              <input placeholder="Type a message…"/>
+              <button>
+                <i class="fas fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container__titleContainer">
+        <h1 class="container__titleContainer__title">Simple booking</h1>
+        <p class="container__titleContainer__description">Stay in touch with our dog walkers through the chat interface.
+          This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+    <div class="background-form"></div>
+    <div class="background-form background-form--ligth"></div>
+  </main>
+</body>
+</html>
